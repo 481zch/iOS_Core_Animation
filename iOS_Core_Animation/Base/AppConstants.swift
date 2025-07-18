@@ -10,4 +10,5 @@ import UIKit
 final class AppConstants {
     static let width = UIScreen.main.bounds.width
     static let height = UIScreen.main.bounds.height
+    static let scale = UIScreen.main.scale
 }

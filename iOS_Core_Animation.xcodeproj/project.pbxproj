@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4576BD872E16582F001A6117 /* C3TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4576BD862E165821001A6117 /* C3TestViewController.swift */; };
+		4576BD892E165E37001A6117 /* C3ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4576BD882E165E2D001A6117 /* C3ClockViewController.swift */; };
+		45A856DB2E29F31E00E3C986 /* C1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A856DA2E29F31400E3C986 /* C1ViewController.swift */; };
+		45A856DD2E29F9D500E3C986 /* C2ContentsImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A856DC2E29F9C900E3C986 /* C2ContentsImageViewController.swift */; };
 		45C82AF32E14D8C6000E5DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C82AEE2E14D8C6000E5DA0 /* Assets.xcassets */; };
 		45C82AF52E14D8C6000E5DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82AED2E14D8C6000E5DA0 /* AppDelegate.swift */; };
-		45C82AF62E14D8C6000E5DA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82AF02E14D8C6000E5DA0 /* SceneDelegate.swift */; };
 		45C82AF72E14D8C6000E5DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82AF12E14D8C6000E5DA0 /* ViewController.swift */; };
-		45C82AFA2E14D8FF000E5DA0 /* C2ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82AF92E14D8F5000E5DA0 /* C2ContentViewController.swift */; };
-		45C82B2D2E14D990000E5DA0 /* ZCHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82B2C2E14D981000E5DA0 /* ZCHBaseViewController.swift */; };
 		45C82B302E14DA11000E5DA0 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82B2E2E14DA11000E5DA0 /* AppConstants.swift */; };
-		45C82B312E14DA11000E5DA0 /* CGRect + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82B2F2E14DA11000E5DA0 /* CGRect + Extension.swift */; };
-		45C82B372E152594000E5DA0 /* C2ContentsByDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82B362E152576000E5DA0 /* C2ContentsByDrawViewController.swift */; };
+		45C82B372E152594000E5DA0 /* C2ContentsCustomDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82B362E152576000E5DA0 /* C2ContentsCustomDrawViewController.swift */; };
 		486E687D0B06E75CB0DF4F81 /* Pods_iOS_Core_Animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA01A243B73B8C59217C72B2 /* Pods_iOS_Core_Animation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4576BD862E165821001A6117 /* C3TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C3TestViewController.swift; sourceTree = "<group>"; };
+		4576BD882E165E2D001A6117 /* C3ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C3ClockViewController.swift; sourceTree = "<group>"; };
+		45A856DA2E29F31400E3C986 /* C1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C1ViewController.swift; sourceTree = "<group>"; };
+		45A856DC2E29F9C900E3C986 /* C2ContentsImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2ContentsImageViewController.swift; sourceTree = "<group>"; };
 		45C82AB92E14D62B000E5DA0 /* iOS_Core_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Core_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C82AED2E14D8C6000E5DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C82AEE2E14D8C6000E5DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C82AEF2E14D8C6000E5DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45C82AF02E14D8C6000E5DA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		45C82AF12E14D8C6000E5DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45C82AF92E14D8F5000E5DA0 /* C2ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2ContentViewController.swift; sourceTree = "<group>"; };
-		45C82B2C2E14D981000E5DA0 /* ZCHBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCHBaseViewController.swift; sourceTree = "<group>"; };
 		45C82B2E2E14DA11000E5DA0 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		45C82B2F2E14DA11000E5DA0 /* CGRect + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect + Extension.swift"; sourceTree = "<group>"; };
-		45C82B362E152576000E5DA0 /* C2ContentsByDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2ContentsByDrawViewController.swift; sourceTree = "<group>"; };
+		45C82B362E152576000E5DA0 /* C2ContentsCustomDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2ContentsCustomDrawViewController.swift; sourceTree = "<group>"; };
 		699C649B8B2E5317A66798D3 /* Pods-iOS_Core_Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Core_Animation.release.xcconfig"; path = "Target Support Files/Pods-iOS_Core_Animation/Pods-iOS_Core_Animation.release.xcconfig"; sourceTree = "<group>"; };
 		C828C0E2C72EF4601DA5B9C6 /* Pods-iOS_Core_Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Core_Animation.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Core_Animation/Pods-iOS_Core_Animation.debug.xcconfig"; sourceTree = "<group>"; };
 		FA01A243B73B8C59217C72B2 /* Pods_iOS_Core_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Core_Animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +57,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4576BD852E1654CF001A6117 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				4576BD882E165E2D001A6117 /* C3ClockViewController.swift */,
+				4576BD862E165821001A6117 /* C3TestViewController.swift */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
 		45C82AB02E14D62B000E5DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +87,7 @@
 		45C82AEA2E14D8C6000E5DA0 /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
+				45A856DA2E29F31400E3C986 /* C1ViewController.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -85,8 +95,8 @@
 		45C82AEB2E14D8C6000E5DA0 /* Chapter2 */ = {
 			isa = PBXGroup;
 			children = (
-				45C82B362E152576000E5DA0 /* C2ContentsByDrawViewController.swift */,
-				45C82AF92E14D8F5000E5DA0 /* C2ContentViewController.swift */,
+				45A856DC2E29F9C900E3C986 /* C2ContentsImageViewController.swift */,
+				45C82B362E152576000E5DA0 /* C2ContentsCustomDrawViewController.swift */,
 			);
 			path = Chapter2;
 			sourceTree = "<group>";
@@ -94,6 +104,7 @@
 		45C82AEC2E14D8C6000E5DA0 /* Book */ = {
 			isa = PBXGroup;
 			children = (
+				4576BD852E1654CF001A6117 /* Chapter3 */,
 				45C82AEA2E14D8C6000E5DA0 /* Chapter1 */,
 				45C82AEB2E14D8C6000E5DA0 /* Chapter2 */,
 			);
@@ -108,7 +119,6 @@
 				45C82AED2E14D8C6000E5DA0 /* AppDelegate.swift */,
 				45C82AEE2E14D8C6000E5DA0 /* Assets.xcassets */,
 				45C82AEF2E14D8C6000E5DA0 /* Info.plist */,
-				45C82AF02E14D8C6000E5DA0 /* SceneDelegate.swift */,
 				45C82AF12E14D8C6000E5DA0 /* ViewController.swift */,
 			);
 			path = iOS_Core_Animation;
@@ -118,8 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				45C82B2E2E14DA11000E5DA0 /* AppConstants.swift */,
-				45C82B2F2E14DA11000E5DA0 /* CGRect + Extension.swift */,
-				45C82B2C2E14D981000E5DA0 /* ZCHBaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -247,13 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C82B302E14DA11000E5DA0 /* AppConstants.swift in Sources */,
-				45C82B312E14DA11000E5DA0 /* CGRect + Extension.swift in Sources */,
-				45C82B372E152594000E5DA0 /* C2ContentsByDrawViewController.swift in Sources */,
+				4576BD892E165E37001A6117 /* C3ClockViewController.swift in Sources */,
+				45C82B372E152594000E5DA0 /* C2ContentsCustomDrawViewController.swift in Sources */,
+				4576BD872E16582F001A6117 /* C3TestViewController.swift in Sources */,
+				45A856DD2E29F9D500E3C986 /* C2ContentsImageViewController.swift in Sources */,
 				45C82AF52E14D8C6000E5DA0 /* AppDelegate.swift in Sources */,
-				45C82B2D2E14D990000E5DA0 /* ZCHBaseViewController.swift in Sources */,
-				45C82AF62E14D8C6000E5DA0 /* SceneDelegate.swift in Sources */,
 				45C82AF72E14D8C6000E5DA0 /* ViewController.swift in Sources */,
-				45C82AFA2E14D8FF000E5DA0 /* C2ContentViewController.swift in Sources */,
+				45A856DB2E29F31E00E3C986 /* C1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

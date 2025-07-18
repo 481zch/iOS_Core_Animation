@@ -17,11 +17,11 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
         setupSubviews()
     }
     
     private func setupSubviews() {
+        view.backgroundColor = .white
         view.addSubview(label)
         label.snp.makeConstraints { make in
             make.center.equalToSuperview()
