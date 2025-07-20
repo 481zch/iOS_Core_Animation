@@ -11,6 +11,8 @@
 		45A856DB2E29F31E00E3C986 /* C1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A856DA2E29F31400E3C986 /* C1ViewController.swift */; };
 		45A856DD2E29F9D500E3C986 /* C2ContentsImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A856DC2E29F9C900E3C986 /* C2ContentsImageViewController.swift */; };
 		45A858512E2A35BD00E3C986 /* C3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A858502E2A35B400E3C986 /* C3ViewController.swift */; };
+		45A858542E2A41F000E3C986 /* C4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A858532E2A41E500E3C986 /* C4ViewController.swift */; };
+		45BA25992E2CD69B00085701 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45BA25982E2CD69200085701 /* README.md */; };
 		45C82AF32E14D8C6000E5DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C82AEE2E14D8C6000E5DA0 /* Assets.xcassets */; };
 		45C82AF52E14D8C6000E5DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82AED2E14D8C6000E5DA0 /* AppDelegate.swift */; };
 		45C82AF72E14D8C6000E5DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C82AF12E14D8C6000E5DA0 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		45A856DA2E29F31400E3C986 /* C1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C1ViewController.swift; sourceTree = "<group>"; };
 		45A856DC2E29F9C900E3C986 /* C2ContentsImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2ContentsImageViewController.swift; sourceTree = "<group>"; };
 		45A858502E2A35B400E3C986 /* C3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C3ViewController.swift; sourceTree = "<group>"; };
+		45A858532E2A41E500E3C986 /* C4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4ViewController.swift; sourceTree = "<group>"; };
+		45BA25982E2CD69200085701 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		45C82AB92E14D62B000E5DA0 /* iOS_Core_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Core_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C82AED2E14D8C6000E5DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C82AEE2E14D8C6000E5DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +70,14 @@
 			path = Chapter3;
 			sourceTree = "<group>";
 		};
+		45A858522E2A408900E3C986 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				45A858532E2A41E500E3C986 /* C4ViewController.swift */,
+			);
+			path = Chapter4;
+			sourceTree = "<group>";
+		};
 		45C82AB02E14D62B000E5DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		45C82AEC2E14D8C6000E5DA0 /* Book */ = {
 			isa = PBXGroup;
 			children = (
+				45A858522E2A408900E3C986 /* Chapter4 */,
 				4576BD852E1654CF001A6117 /* Chapter3 */,
 				45C82AEA2E14D8C6000E5DA0 /* Chapter1 */,
 				45C82AEB2E14D8C6000E5DA0 /* Chapter2 */,
@@ -114,6 +127,7 @@
 		45C82AF22E14D8C6000E5DA0 /* iOS_Core_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				45BA25982E2CD69200085701 /* README.md */,
 				45C82AF82E14D8CF000E5DA0 /* Base */,
 				45C82AEC2E14D8C6000E5DA0 /* Book */,
 				45C82AED2E14D8C6000E5DA0 /* AppDelegate.swift */,
@@ -201,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BA25992E2CD69B00085701 /* README.md in Resources */,
 				45C82AF32E14D8C6000E5DA0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C82B302E14DA11000E5DA0 /* AppConstants.swift in Sources */,
+				45A858542E2A41F000E3C986 /* C4ViewController.swift in Sources */,
 				4576BD892E165E37001A6117 /* C3ClockViewController.swift in Sources */,
 				45C82B372E152594000E5DA0 /* C2ContentsCustomDrawViewController.swift in Sources */,
 				45A856DD2E29F9D500E3C986 /* C2ContentsImageViewController.swift in Sources */,
